@@ -38,6 +38,15 @@
     margin: 20px;
 }
 
+.photo img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px 50px 10px;
+    object-fit: cover;
+    margin: auto;
+}
+
 .introduce {
     float: left;
     width: 550px;
@@ -46,8 +55,8 @@
 
 .quote {
     float: right;
-    padding-top: 30px;
-    font-size: 22px;
+    padding-top: 100px;
+    font-size: 24px;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     line-height: 2;
@@ -55,6 +64,7 @@
 
 cite {
     font-weight: 200;
+
 }
 
 footer {
@@ -62,5 +72,5 @@ footer {
     width: 100%;
     color: brown;
     margin: 20px;
-    text-align: center;
+    text-align: right;
 }
