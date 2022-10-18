@@ -7,21 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jihyeon_Shin">
     <meta name="email" content="shin0098@algonquinlive.com">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Jiheyon Shin</title>
 </head>
 
 <body>
     <header>
-        <h1>About Me</h1>
-        <nav><a href="./notes.html">Notes</a></nav>
+        <div class="heading">
+        <h1 class="site-title">About Me</h1>
+    </div>
+        <nav class="navigation"><a href="./notes.html">Notes</a></nav>
     </header>
     <article class="wrap">
         <h2>Introduce</h2>
         <div class="introduce">
         <div class="photo">
-            <img src="./images/selfie.jpg" alt="Jihyeon Selfie">
+            <img src="./images/selfie.jpg" alt="Jihyeon Selfie" id="my-image">
         </div>
+        <section class="text-wrap">
             <p>
                 Hello, my name is Jihyeon Shin. I’m from South Korea. I moved to Canada in 22<sup>nd</sup> August 2022.
                 It is my first coding experience. It takes a lot of courage to start something new, but I’m trying to
@@ -34,6 +37,7 @@
                 on a bench whit looking at the sky is my favorite thing. I could go snorkelling in the sea in summer if
                 I have good luck. I'm not a good runner, but I like walking. Skiing is my favorite sport. I’m already looking forward to skiing in Canada!
             </p>
+        </section>
         </div>
         <div class="quote">
             <blockquote>
@@ -49,9 +53,9 @@
             </blockquote>
         </div>
     </article>
-    <div>
-        <h3>Hobby</h3>
-        <dl>
+    <div class="hobby">
+        <h2>Hobby</h3>
+        <dl class="hobbylist">
             <dt>Outdoor</dt>
             <dd>Skiing</dd>
             <dd>Hiking</dd>
