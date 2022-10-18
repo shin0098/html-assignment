@@ -67,6 +67,10 @@
     color: whitesmoke;
  }
 
+ h2.hidden {
+    display: none;
+ }
+
 body h2 {
     border: 2px solid;
     background-color: rgb(32, 197, 120);
