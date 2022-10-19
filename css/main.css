@@ -147,11 +147,12 @@ body h2, h3 {
     
   }
 
+
 .hobbylist dd{
 padding: 5px;
   }
 
-dl.hobbylist dd:nth-child(even){
+.hobbylist dd:nth-child(even){
     background:rgb(246, 255, 124);
 }
 
