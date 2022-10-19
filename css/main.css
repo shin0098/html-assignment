@@ -128,7 +128,7 @@ body h2, h3 {
 .hobbylist {
     display: flex;
     flex-flow: column wrap;
-    max-height: 7em;
+    max-height: 7.5em;
     width:50%;
     margin-top: 20px;
 }
