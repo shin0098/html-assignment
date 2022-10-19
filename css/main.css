@@ -17,7 +17,7 @@
  }
 
 
-.heading, footer {
+header, footer {
     background-color: rgb(32, 197, 120);
 
 }
@@ -108,31 +108,28 @@ body h2, h3 {
     margin: auto;
 }
 
-/* 0 0 2 0  */
 #my-image {
     box-shadow: 0 0 2px 1px black;
 }
 
-/* Id selector - add an id my-image to your image and select the id in CSS to add a box-shadow with 0 horizontal and vertical placement, 2px of the blur, 1px of the spread and black colour */
+
+/* 0 0 2 0  */
 
 /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
 
 
 .text-wrap {
     margin-top: 30px;
+    line-height: 1.2;
 }
 
 .hobby {
     margin-top: 30px;
     width: 300px;
-
 }
 
-.hobbylist ul {
-    display: block;
-    padding: 20px 5px;
-    margin-top: 10px;
-
+.hobby ul{
+    padding: 10px;
 }
 
 .hobbylist li{
@@ -143,10 +140,9 @@ body h2, h3 {
 
 }
 
-
-
 .hobbylist li:nth-child(odd){
     background:rgb(246, 255, 124);
+
 }
 
 .quote {
@@ -167,7 +163,7 @@ footer {
     display: block;
     color: whitesmoke;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 10px 20px;
     text-align: right;
 }
