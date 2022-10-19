@@ -23,9 +23,8 @@ header, footer {
 }
 
 .navigation{
-    border: 2px solid rgb(32, 197, 120);
-    background-color: rgb(242, 245, 243);
     border-radius: 30px;
+    background-color: rgb(242, 245, 243);
     width: 70px;
     position: absolute;
     right: 0;
@@ -42,6 +41,8 @@ header, footer {
     font-size: 14px;
     font-weight: bold;
     color: rgb(5, 158, 87);
+    border: 2px solid rgb(32, 197, 120);
+    border-radius: 30px;
     background: url("../images/notes.png") no-repeat 14px 14px;
     background-size: 60%;
 }
@@ -136,13 +137,15 @@ body h2, h3 {
     display: list-item;
     list-style-type: square;
     list-style-position: inside;
-    padding: 5px;
+    padding: 8px;
 
 }
 
 .hobbylist li:nth-child(odd){
-    background:rgb(246, 255, 124);
-
+    background: radial-gradient(circle at top left,transparent 25%,#cfffd8 25.5%, #cfffd8 36%, transparent 37%, transparent 100%),radial-gradient(circle at bottom right,transparent 34%,#cfffd8 34.5%, #cfffd8 45.5%, transparent 46%, transparent 100%);
+    background-size: 6em 2em;
+    background-color: #a4eeb7;
+    opacity: 1
 }
 
 .quote {
